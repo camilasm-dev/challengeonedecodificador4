@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --branco: #FFFFFF;
+    --azul-claro: #C4E1f2;
+    --azul-escuro: #0a3871;
+    --cinza-claro: #c4e1f28c;
+    --cinza-medio: #D8DFE8;
+    --cinza-escuro: #4950577a;
+    --cinza-escuro2: #495057;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 99px;
+    background-color: #0a3871; 
+    font-size: 20px;
+    color: var(--branco);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: var(--azul-claro);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    height: 580px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--branco);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.externa {
+    margin: 0px auto 0px auto;
+    width: 1100px;
+    height: 500px;
+}
+
+#container-entrada {
+    vertical-align: top;
+    display: inline-block;
+    width: 450px;
+    height: 500px;
+    background-color: var(--branco);
+    border: solid;
+    border-width: thin;
+    border-color: var(--azul-claro);
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 0 var(--cinza-claro);
+}
+
+#entrada {
+    width: 400px;
+    height: 450px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    outline: 0;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#container-output {
+    width: 450px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 95px;
+    background-color: var(--branco);
+    border: solid;
+    border-width: thin;
+    border-color: var(--azul-claro);
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 0 var(--cinza-claro);
+}
+
+#button-copiar {
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 15px;
+    color: var(--azul-escuro);
+    margin-left: 180px;
+    margin-top: 90px;
+    padding: 5px;
+    background: var(--cinza-medio);
+    border: 1px solid var(--azul-escuro);
+    border-radius: 15px;
+}
+
+#button-copiar:hover {
+    background-color:var(--azul-escuro);
+    color:var(--cinza-medio);
+}
+
+.atencao {
+    position: absolute;
+    padding-left: 320px;
+    padding-top: 7px;
+    pointer-events: none;
+}
+
+.p-atencao {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+#texto {
+    width: 400px;
+    height: 320px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    outline: 0;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.externa-buttons {
+    width: 600px;
+    height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto 0px auto;
+}
+
+#button-criptografar {
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    background: var(--azul-escuro);
+    font-size: 15px;
+    color: var(--branco);
+    margin: 0 15px;
+    padding-right: 0px;
+    border: 1px solid var(--azul-escuro);
+    border-radius: 15px;
+}
+
+#button-criptografar:hover {
+    background-color: var(--cinza-medio);
+    color: var(--azul-escuro);
+}
+
+#button-descriptografar {
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    background: var(--azul-escuro);
+    font-size: 15px;
+    color: var(--branco);
+    margin: 0 15px;
+    padding: 5px;
+    border: 1px solid var(--azul-escuro);
+    border-radius: 15px;
+}
+
+#button-descriptografar:hover {
+    background-color: var(--cinza-medio);
+    color: var(--azul-escuro);
+}
+
+#limpar {
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    background: var(--azul-escuro);
+    font-size: 15px;
+    color: var(--branco);
+    margin: 0 15px;
+    border: 1px solid var(--azul-escuro);
+    border-radius: 15px;
+}
+
+#limpar:hover {
+    background-color: var(--cinza-medio);
+    color: var(--azul-escuro);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background: var(--cinza-escuro);
+    text-align: center;
+    font-size: 12px;
+}
+
+.p-footer {
+    font-size: 15px;
+    text-align: center;
+    color: var(--cinza-escuro2);
+    font-weight: bold;
+    text-align: center;
+}

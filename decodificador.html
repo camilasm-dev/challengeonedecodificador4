@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador ONE</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Decodificador ONE</h1>
+    </header>
+
+    <main>
+        <section>
+            <div class="externa">
+                <div id="container-entrada">
+                    <textarea id="entrada" placeholder="Digite seu texto aqui..."></textarea>
+                </div>
+                
+                <div id="container-output">
+                    <textarea id="texto"></textarea> 
+                    <button id="button-copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </div>
+            
+            <a href="" class="atencao" alt=""><img src="https://img.icons8.com/plumpy/24/null/high-importance.png"/> </a><p  class="p-atencao">Apenas letras minúsculas e sem acento.</p> 
+            
+            <div class="externa-buttons">
+                <button id="button-criptografar" class="criptografar" onclick="criptografar()">Criptografar</button>
+                <button id="button-descriptografar" class="descriptografar" onclick="descriptografar()">Descriptografar</button>
+                <button id="limpar" onclick="limpar()">Limpar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="p-footer">Desenvolvido por Camila Marques.</p> 
+        <a href="https://github.com/camilasm-dev" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/null/github.png"/></a>
+        <a href="https://www.linkedin.com/in/camila-marques-972791137/" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/null/linkedin.png"/></a>
+    </footer>
+</body>
+</html>
